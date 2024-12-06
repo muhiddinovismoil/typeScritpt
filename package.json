@@ -1,12 +1,22 @@
 {
-  "name": "05.12.2024",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "name": "05.12.2024",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node server.ts",
+        "build": "tsc",
+        "serve": "node dist/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@types/express": "^5.0.0",
+        "express": "^4.21.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
 }
